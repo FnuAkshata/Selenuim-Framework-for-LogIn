@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="2" ignored="0" total="6" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-27T14:02:29 PDT" name="All Test Suite" finished-at="2023-03-27T14:03:22 PDT" duration-ms="52571">
+    <groups>
+      <group name="purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:AutomationLearning.SubmitOrderTest@70cf32e3]" name="submitOrder" class="AutomationLearning.SubmitOrderTest"/>
+      </group> <!-- purchase -->
+      <group name="order">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:AutomationLearning.SubmitOrderTest@70cf32e3]" name="submitOrder" class="AutomationLearning.SubmitOrderTest"/>
+      </group> <!-- order -->
+    </groups>
+    <test started-at="2023-03-27T14:02:29 PDT" name="Error Validation Test" finished-at="2023-03-27T14:03:10 PDT" duration-ms="40572">
+      <class name="AutomationLearning.ErrorValidation">
+        <test-method is-config="true" signature="launchApplicaiton()[pri:0, instance:AutomationLearning.ErrorValidation@1807f5a7]" started-at="2023-03-27T14:02:29 PDT" name="launchApplicaiton" finished-at="2023-03-27T14:02:45 PDT" duration-ms="15487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplicaiton -->
+        <test-method retried="true" signature="submitOrder()[pri:0, instance:AutomationLearning.ErrorValidation@1807f5a7]" started-at="2023-03-27T14:02:45 PDT" name="submitOrder" finished-at="2023-03-27T14:02:46 PDT" duration-ms="1116" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email password.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at AutomationLearning.ErrorValidation.submitOrder(ErrorValidation.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationLearning.ErrorValidation@1807f5a7]" started-at="2023-03-27T14:02:46 PDT" name="tearDown" finished-at="2023-03-27T14:02:47 PDT" duration-ms="1472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplicaiton()[pri:0, instance:AutomationLearning.ErrorValidation@1807f5a7]" started-at="2023-03-27T14:02:47 PDT" name="launchApplicaiton" finished-at="2023-03-27T14:02:56 PDT" duration-ms="9260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplicaiton -->
+        <test-method retried="true" signature="submitOrder()[pri:0, instance:AutomationLearning.ErrorValidation@1807f5a7]" started-at="2023-03-27T14:02:56 PDT" name="submitOrder" finished-at="2023-03-27T14:02:58 PDT" duration-ms="1253" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email password.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at AutomationLearning.ErrorValidation.submitOrder(ErrorValidation.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationLearning.ErrorValidation@1807f5a7]" started-at="2023-03-27T14:02:58 PDT" name="tearDown" finished-at="2023-03-27T14:02:58 PDT" duration-ms="782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplicaiton()[pri:0, instance:AutomationLearning.ErrorValidation@1807f5a7]" started-at="2023-03-27T14:02:58 PDT" name="launchApplicaiton" finished-at="2023-03-27T14:03:06 PDT" duration-ms="7824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplicaiton -->
+        <test-method signature="submitOrder()[pri:0, instance:AutomationLearning.ErrorValidation@1807f5a7]" started-at="2023-03-27T14:03:06 PDT" name="submitOrder" finished-at="2023-03-27T14:03:07 PDT" duration-ms="764" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email password.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at AutomationLearning.ErrorValidation.submitOrder(ErrorValidation.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationLearning.ErrorValidation@1807f5a7]" started-at="2023-03-27T14:03:08 PDT" name="tearDown" finished-at="2023-03-27T14:03:10 PDT" duration-ms="1130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AutomationLearning.ErrorValidation -->
+    </test> <!-- Error Validation Test -->
+    <test started-at="2023-03-27T14:02:29 PDT" name="SubmitOrderTest" finished-at="2023-03-27T14:03:22 PDT" duration-ms="52567">
+      <class name="AutomationLearning.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplicaiton()[pri:0, instance:AutomationLearning.SubmitOrderTest@70cf32e3]" started-at="2023-03-27T14:02:29 PDT" name="launchApplicaiton" finished-at="2023-03-27T14:02:44 PDT" duration-ms="14930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplicaiton -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:AutomationLearning.SubmitOrderTest@70cf32e3]" started-at="2023-03-27T14:02:44 PDT" name="submitOrder" data-provider="getData" finished-at="2023-03-27T14:02:52 PDT" duration-ms="8091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Saha@123, email=Saha@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationLearning.SubmitOrderTest@70cf32e3]" started-at="2023-03-27T14:02:52 PDT" name="tearDown" finished-at="2023-03-27T14:02:53 PDT" duration-ms="976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplicaiton()[pri:0, instance:AutomationLearning.SubmitOrderTest@70cf32e3]" started-at="2023-03-27T14:02:53 PDT" name="launchApplicaiton" finished-at="2023-03-27T14:03:01 PDT" duration-ms="7665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplicaiton -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:AutomationLearning.SubmitOrderTest@70cf32e3]" started-at="2023-03-27T14:03:01 PDT" name="submitOrder" data-provider="getData" finished-at="2023-03-27T14:03:10 PDT" duration-ms="8592" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Saha@123, email=samdev@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationLearning.SubmitOrderTest@70cf32e3]" started-at="2023-03-27T14:03:10 PDT" name="tearDown" finished-at="2023-03-27T14:03:11 PDT" duration-ms="1231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplicaiton()[pri:0, instance:AutomationLearning.SubmitOrderTest@70cf32e3]" started-at="2023-03-27T14:03:11 PDT" name="launchApplicaiton" finished-at="2023-03-27T14:03:19 PDT" duration-ms="8214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplicaiton -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:AutomationLearning.SubmitOrderTest@70cf32e3]" started-at="2023-03-27T14:03:19 PDT" name="orderHistoryTest" finished-at="2023-03-27T14:03:21 PDT" depends-on-methods="AutomationLearning.SubmitOrderTest.submitOrder" duration-ms="1590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationLearning.SubmitOrderTest@70cf32e3]" started-at="2023-03-27T14:03:21 PDT" name="tearDown" finished-at="2023-03-27T14:03:22 PDT" duration-ms="852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AutomationLearning.SubmitOrderTest -->
+    </test> <!-- SubmitOrderTest -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

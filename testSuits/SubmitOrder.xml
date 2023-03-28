@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="All Test Suite">
+    <groups>
+        <run>
+            <include name="order"/>
+        </run>
+    </groups>
+    <test verbose="2" preserve-order="true" name="SubmitOrderTest">
+        <classes>
+            <class name="AutomationLearning.SubmitOrderTest"/>
+        </classes>
+    </test>
+    <test name="Error Validation Test">
+        <classes>
+            <class name="AutomationLearning.ErrorValidation"/>
+        </classes>
+    </test>
+</suite>

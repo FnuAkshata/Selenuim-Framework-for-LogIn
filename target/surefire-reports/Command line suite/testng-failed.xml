@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="AutomationLearning.SubmitOrderTest">
+        <methods>
+          <include name="launchApplicaiton"/>
+          <include name="orderHistoryTest"/>
+          <include name="tearDown"/>
+          <include name="submitOrder"/>
+        </methods>
+      </class> <!-- AutomationLearning.SubmitOrderTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
