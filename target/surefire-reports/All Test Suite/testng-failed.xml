@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
-  <listeners>
-    <listener class-name="AutomationLearning.Listeners.Listener"/>
-  </listeners>
-  <test thread-count="5" parallel="tests" name="Error Validation Test(failed)" verbose="0">
+  <test thread-count="5" parallel="tests" name="SubmitOrderTest(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="purchase"/>
+      </run>
+    </groups>
     <classes>
-      <class name="AutomationLearning.ErrorValidation">
+      <class name="AutomationLearning.SubmitOrderTest">
         <methods>
           <include name="launchApplicaiton"/>
           <include name="submitOrder"/>
-          <include name="tearDown"/>
         </methods>
-      </class> <!-- AutomationLearning.ErrorValidation -->
+      </class> <!-- AutomationLearning.SubmitOrderTest -->
     </classes>
-  </test> <!-- Error Validation Test(failed) -->
+  </test> <!-- SubmitOrderTest(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->

@@ -34,6 +34,19 @@
 			<artifactId>wicket</artifactId>
 			<version>${wicket.version}</version>
 		</dependency>
+
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>7.11.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-testng</artifactId>
+			<version>7.11.1</version>
+		</dependency>
+
 		<!-- OPTIONAL 
 			<dependency>
 			<groupId>org.apache.wicket</groupId>
